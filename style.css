@@ -7,8 +7,6 @@
 }
 
 
-
-
 .text-block {
     background-color: black;
     color: white;
@@ -21,3 +19,14 @@
     text-align: center;
     font-size: 18px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .text-block {
+        
+        top: 10%;
+    
+    }
+    }
